@@ -18,7 +18,7 @@ public class BiodatadiriTest {
     public void testIsEligibleToVote() {
 	
 	// Arrange
-        Biodatadiri user = new Biodatadiri("Fadhil", 21, "Cianjur");
+        Biodatadiri user = new Biodatadiri(Fadhil, 21, "Cianjur");
         int votingAge = 17;
     
 	// Act
